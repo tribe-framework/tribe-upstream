@@ -1,0 +1,13 @@
+{
+    "name": "tribe/upstream",
+    "description": " Uploading and converting videos for streaming on Tribe, using PHP-FFmpeg-video-streaming ",
+    "license": "GPL-3.0-or-later",
+    "require": {
+       "aminyazdanpanah/php-ffmpeg-video-streaming": "^1.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "Tribe\\": "src/"
+        }
+    }
+}
